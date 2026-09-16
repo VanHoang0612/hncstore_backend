@@ -27,3 +27,10 @@ springdoc:
     path: /api-docs
   swagger-ui:
     path: /docs
+
+cloudinary:
+  cloud_name: ${CLOUDINARY_CLOUD_NAME}
+  api_key: ${CLOUDINARY_API_KEY}
+  api_secret: ${CLOUDINARY_API_SECRET}
+  upload_url: https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/image/upload
+  project: ${CLOUDINARY_PROJECT}
