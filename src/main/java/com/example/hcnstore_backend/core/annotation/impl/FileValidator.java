@@ -1,6 +1,6 @@
-package com.hoang.hncstore_backend.core.annotation.impl;
+package com.example.hcnstore_backend.core.annotation.impl;
 
-import com.hoang.hncstore_backend.core.annotation.FileNotEmpty;
+import com.example.hcnstore_backend.core.annotation.FileNotEmpty;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 import org.springframework.web.multipart.MultipartFile;

@@ -1,6 +1,6 @@
-package com.hoang.hncstore_backend.core.annotation;
+package com.example.hcnstore_backend.core.annotation;
 
-import com.hoang.hncstore_backend.core.annotation.impl.FileValidator;
+import com.example.hcnstore_backend.core.annotation.impl.FileValidator;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 

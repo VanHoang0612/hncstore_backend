@@ -1,4 +1,4 @@
-package com.hoang.hncstore_backend.core.annotation.impl;
+package com.example.hcnstore_backend.core.annotation.impl;
 
 import com.hoang.hncstore_backend.core.annotation.ValidPassword;
 import jakarta.validation.ConstraintValidator;

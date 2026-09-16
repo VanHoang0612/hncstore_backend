@@ -1,6 +1,6 @@
-package com.hoang.hncstore_backend.core.annotation;
+package com.example.hcnstore_backend.core.annotation;
 
-import com.hoang.hncstore_backend.core.annotation.impl.ValueOfEnumValidator;
+import com.example.hcnstore_backend.core.annotation.impl.ValueOfEnumValidator;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 
