@@ -8,11 +8,11 @@
         <version>4.1.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>hcnstore_backend</artifactId>
+    <groupId>com.hoang</groupId>
+    <artifactId>hncstore_backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hcnstore_backend</name>
-    <description>hcnstore_backend</description>
+    <name>hncstore_backend</name>
+    <description>hncstore_backend</description>
     <url/>
     <licenses>
         <license/>

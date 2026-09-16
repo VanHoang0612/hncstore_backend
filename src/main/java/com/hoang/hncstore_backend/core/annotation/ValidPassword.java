@@ -1,0 +1,20 @@
+package com.hoang.hncstore_backend.core.annotation;
+
+import com.hoang.hncstore_backend.core.annotation.impl.PasswordValidator;
+import jakarta.validation.Constraint;
+import jakarta.validation.Payload;
+
+import java.lang.annotation.*;
+
+@Target({ElementType.FIELD})
+@Retention(RetentionPolicy.RUNTIME)
+@Constraint(validatedBy = PasswordValidator.class)
+@Documented
+public @interface ValidPassword {
+    String message() default "The password must be at least 6 characters long, including uppercase letters, lowercase" +
+            " letters, numbers, and special characters";
+
+    Class<?>[] groups() default {};
+
+    Class<? extends Payload>[] payload() default {};
+}
