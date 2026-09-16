@@ -1,4 +1,4 @@
-package com.hoang.hncstore_backend.core.config;
+package com.example.hcnstore_backend.core.config;
 
 import org.jspecify.annotations.NonNull;
 import org.springframework.context.annotation.Bean;
