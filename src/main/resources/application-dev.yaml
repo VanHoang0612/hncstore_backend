@@ -18,3 +18,9 @@ spring:
     basename: i18n/validation/messages, i18n/messages
     encoding: UTF-8
     fallback-to-system-locale: true
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /docs
