@@ -1,4 +1,4 @@
-package com.hoang.hncstore_backend.core.utils;
+package com.example.hcnstore_backend.core.utils;
 
 import org.mapstruct.Condition;
 
