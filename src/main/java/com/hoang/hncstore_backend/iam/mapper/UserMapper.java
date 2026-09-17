@@ -1,12 +1,12 @@
-package com.hoang.hncstore_backend.user.mapper;
+package com.hoang.hncstore_backend.iam.mapper;
 
 import com.hoang.hncstore_backend.core.utils.MappingUtils;
-import com.hoang.hncstore_backend.user.dto.request.UserCreateRequest;
-import com.hoang.hncstore_backend.user.dto.request.UserRegistrationDTO;
-import com.hoang.hncstore_backend.user.dto.request.UserUpdateRequest;
-import com.hoang.hncstore_backend.user.dto.response.UserDetailsResponse;
-import com.hoang.hncstore_backend.user.dto.response.UserResponse;
-import com.hoang.hncstore_backend.user.entity.User;
+import com.hoang.hncstore_backend.iam.dto.request.UserCreateRequest;
+import com.hoang.hncstore_backend.iam.dto.request.UserRegistrationDTO;
+import com.hoang.hncstore_backend.iam.dto.request.UserUpdateRequest;
+import com.hoang.hncstore_backend.iam.dto.response.UserDetailsResponse;
+import com.hoang.hncstore_backend.iam.dto.response.UserResponse;
+import com.hoang.hncstore_backend.iam.entity.User;
 import org.mapstruct.*;
 
 @Mapper(componentModel = "spring", uses = {MappingUtils.class})

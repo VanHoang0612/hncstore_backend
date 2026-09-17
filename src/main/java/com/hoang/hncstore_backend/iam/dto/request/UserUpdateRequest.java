@@ -1,8 +1,8 @@
-package com.hoang.hncstore_backend.user.dto.request;
+package com.hoang.hncstore_backend.iam.dto.request;
 
 import com.hoang.hncstore_backend.core.annotation.ValueOfEnum;
-import com.hoang.hncstore_backend.user.enums.Gender;
-import com.hoang.hncstore_backend.user.enums.UserStatus;
+import com.hoang.hncstore_backend.iam.enums.Gender;
+import com.hoang.hncstore_backend.iam.enums.UserStatus;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Size;
 import org.apache.commons.lang3.StringUtils;

@@ -1,7 +1,7 @@
-package com.hoang.hncstore_backend.user.entity;
+package com.hoang.hncstore_backend.iam.entity;
 
-import com.hoang.hncstore_backend.user.enums.CredentialStatus;
-import com.hoang.hncstore_backend.user.enums.Provider;
+import com.hoang.hncstore_backend.iam.enums.CredentialStatus;
+import com.hoang.hncstore_backend.iam.enums.Provider;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;

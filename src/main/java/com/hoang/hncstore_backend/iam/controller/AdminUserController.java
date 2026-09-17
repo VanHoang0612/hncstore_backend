@@ -1,14 +1,14 @@
-package com.hoang.hncstore_backend.user.controller;
+package com.hoang.hncstore_backend.iam.controller;
 
 import com.hoang.hncstore_backend.core.enums.CommonCode;
 import com.hoang.hncstore_backend.core.response.ApiResponse;
 import com.hoang.hncstore_backend.core.response.ResponseHelper;
-import com.hoang.hncstore_backend.user.dto.request.UserCreateRequest;
-import com.hoang.hncstore_backend.user.dto.request.UserUpdateRequest;
-import com.hoang.hncstore_backend.user.dto.response.UserDetailsResponse;
-import com.hoang.hncstore_backend.user.dto.response.UserResponse;
-import com.hoang.hncstore_backend.user.enums.UserLabel;
-import com.hoang.hncstore_backend.user.service.UserService;
+import com.hoang.hncstore_backend.iam.dto.request.UserCreateRequest;
+import com.hoang.hncstore_backend.iam.dto.request.UserUpdateRequest;
+import com.hoang.hncstore_backend.iam.dto.response.UserDetailsResponse;
+import com.hoang.hncstore_backend.iam.dto.response.UserResponse;
+import com.hoang.hncstore_backend.iam.enums.UserLabel;
+import com.hoang.hncstore_backend.iam.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

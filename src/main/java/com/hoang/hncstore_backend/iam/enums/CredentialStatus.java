@@ -1,4 +1,4 @@
-package com.hoang.hncstore_backend.user.enums;
+package com.hoang.hncstore_backend.iam.enums;
 
 public enum CredentialStatus {
     ACTIVE,

@@ -1,4 +1,4 @@
-package com.hoang.hncstore_backend.user.dto.request;
+package com.hoang.hncstore_backend.iam.dto.request;
 
 import org.springframework.web.multipart.MultipartFile;
 
