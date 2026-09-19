@@ -46,3 +46,8 @@ security:
     expiration-time:
       access: 20000
       refresh: 60000
+
+sms:
+  vonage:
+    api-key: ${VONAGE_API_KEY}
+    api-secret: ${VONAGE_API_SECRET}
