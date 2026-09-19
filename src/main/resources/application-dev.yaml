@@ -34,3 +34,10 @@ cloudinary:
   api_secret: ${CLOUDINARY_API_SECRET}
   upload_url: https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/image/upload
   project: ${CLOUDINARY_PROJECT}
+
+security:
+  jwt:
+    secret-key: ${JWT_SECRET_KEY}
+    expiration-time:
+      access: 20000
+      refresh: 60000

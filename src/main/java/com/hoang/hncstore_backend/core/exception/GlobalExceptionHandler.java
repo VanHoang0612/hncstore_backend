@@ -40,6 +40,7 @@ public class GlobalExceptionHandler {
 //                    .toList();
 //        }
         String labelKey = ex.getLabelKey();
+        log.warn("Business Exception [Code: {}] - Details: {}", ex.getResponseCode().getCode(), ex.getArgs());
         return responseHelper.buildFailure(ex.getResponseCode(), labelKey, null, ex.getArgs());
     }
 

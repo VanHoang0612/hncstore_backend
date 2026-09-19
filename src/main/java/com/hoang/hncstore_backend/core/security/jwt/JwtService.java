@@ -1,8 +1,8 @@
 package com.hoang.hncstore_backend.core.security.jwt;
 
-import com.hoang.hncstore_backend.auth.enums.ErrorCode;
-import com.hoang.hncstore_backend.auth.enums.TokenType;
 import com.hoang.hncstore_backend.core.exception.BusinessException;
+import com.hoang.hncstore_backend.iam.enums.AuthCode;
+import com.hoang.hncstore_backend.iam.enums.TokenType;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
@@ -49,16 +49,16 @@ public class JwtService {
                     .parseSignedClaims(token)
                     .getPayload();
         } catch (ExpiredJwtException e) {
-            log.error("Token đã hết hạn: {}", e.getMessage());
-            throw new BusinessException(ErrorCode.TOKEN_EXPIRED, null);
+            log.error("Token has expired: {}", e.getMessage());
+            throw new BusinessException(AuthCode.TOKEN_EXPIRED, null);
         } catch (Exception e) {
-            log.error("Lỗi khi trích xuất claims từ token: {}", e.getMessage());
-            throw new BusinessException(ErrorCode.UNAUTHORIZED, null);
+            log.error("Error extracting claims from token: {}", e.getMessage());
+            throw new BusinessException(AuthCode.UNAUTHORIZED, null);
         }
 
     }
 
-    public String extractUsername(String token) {
+    public String extractIdentifier(String token) {
         return extractClaim(token, Claims::getSubject);
     }
 
