@@ -1,11 +1,11 @@
 package com.hoang.hncstore_backend.iam.mapper;
 
 import com.hoang.hncstore_backend.core.utils.MappingUtils;
-import com.hoang.hncstore_backend.iam.dto.request.UserCreateRequest;
-import com.hoang.hncstore_backend.iam.dto.request.UserRegistrationDTO;
-import com.hoang.hncstore_backend.iam.dto.request.UserUpdateRequest;
-import com.hoang.hncstore_backend.iam.dto.response.UserDetailsResponse;
-import com.hoang.hncstore_backend.iam.dto.response.UserResponse;
+import com.hoang.hncstore_backend.iam.dto.user.request.UserCreateRequest;
+import com.hoang.hncstore_backend.iam.dto.user.request.UserRegistrationDTO;
+import com.hoang.hncstore_backend.iam.dto.user.request.UserUpdateRequest;
+import com.hoang.hncstore_backend.iam.dto.user.response.UserDetailsResponse;
+import com.hoang.hncstore_backend.iam.dto.user.response.UserResponse;
 import com.hoang.hncstore_backend.iam.entity.User;
 import org.mapstruct.*;
 

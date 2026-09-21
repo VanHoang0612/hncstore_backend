@@ -1,4 +1,4 @@
-package com.hoang.hncstore_backend.iam.dto.request.auth;
+package com.hoang.hncstore_backend.iam.dto.auth.request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

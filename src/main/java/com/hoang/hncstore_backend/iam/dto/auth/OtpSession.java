@@ -1,4 +1,4 @@
-package com.hoang.hncstore_backend.iam.dto;
+package com.hoang.hncstore_backend.iam.dto.auth;
 
 import lombok.Builder;
 

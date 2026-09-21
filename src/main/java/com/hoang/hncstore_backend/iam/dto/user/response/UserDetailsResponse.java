@@ -1,6 +1,6 @@
-package com.hoang.hncstore_backend.iam.dto.response;
+package com.hoang.hncstore_backend.iam.dto.user.response;
 
-public record UserResponse(
+public record UserDetailsResponse(
         String id,
         String phoneNumber,
         String email,
@@ -8,7 +8,5 @@ public record UserResponse(
         String gender,
         String avatarUrl,
         String status
-
 ) {
-
 }
